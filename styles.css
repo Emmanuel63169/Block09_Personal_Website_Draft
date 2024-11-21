@@ -2,18 +2,49 @@
 
 /* General */
 
+nav{
+    background: gray;
+    color: black;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding: 5px 20px;
+    font-size: 1vw;
+}
 
 /* Home Page */
 
 .home_body{
-    background: grey;
+background: whitesmoke;
+}
+
+.home_bio{
+    background-color: brown;
+    display: inline-block;
+    margin: 1% 25% 1% 25%;
+    padding: 1% 5% 2% 5%;
+}
+
+.home_quote{
+    display: flex;
+    margin: 1% 15% 1% 15%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2vw;
 }
 
 /* About Page */
 
 .about_body{
-    background: grey;
+    background: whitesmoke;
 }
+
+.about_header{
+    margin: 1% 1% 1% 35%;
+    display: inline-block;
+    background: lightseagreen;
+    padding: 1%;
+}
+
 
 .art_table{
     background: lightblue;
@@ -39,5 +70,26 @@
 /* Portfolio Page */
 
 .portfolio_body{
-    background: grey;
+    background: whitesmoke;
+}
+
+.project_1{
+    background: lightsalmon;
+    display: inline-block;
+    margin: 1% 20% 1% 20%;
+    padding: 1% 5% 2% 5%;
+}
+
+.project_2{
+    background: lightgoldenrodyellow;
+    display: inline-block;
+    margin: 1% 20% 1% 20%;
+    padding: 1% 5% 2% 5%;
+}
+
+.project_3{
+    background: lightsteelblue;
+    display: inline-block;
+    margin: 1% 20% 1% 20%;
+    padding: 1% 5% 2% 5%;
 }
